@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chef.css">
+    <title>master_chef</title>
+</head>
+<body>
+   
+    <div class="main">
+        <div class="app-hed">
+            <h1 id="recipe-name"></h1>
+            <select id="recipe-selector" onchange="updateRecipe('1')">
+            </select>
+
+            <img src="" alt="">
+        </div>
+        <div class="recipe-hero">
+            <div class="recipe-img">
+                <img src="" alt="">
+            </div>
+            <div class="recipe-detail">
+                <div class="rec-name">
+                    <h1></h1>
+                </div>
+                <div class="rating">
+                    <div class="stars">
+
+                    </div>
+                    <div class="count">
+
+                    </div>
+                </div>
+                <div class="description">
+                    <p></p>
+                </div>
+                <div class="mini-card">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="start">
+
+                </div>
+            </div>
+        </div>
+        <div class="recipe-content">
+            <div class="grid-left">
+                <div class="ingredient">
+                    <div class="ing-name">
+                        tre
+                    </div>
+                    <div class="ing-quantity">
+            
+                    </div>
+                </div>
+                <div class="prep-time">
+
+                </div>
+            </div>
+            <div class="grid-right">
+                <div class="nutrition">
+                    <div class="kal-mtr">
+
+                    </div>
+                    <div class="kal-list">
+
+                    </div>
+                </div>
+                <div class="instructions">
+
+                </div>
+            </div>
+        </div>
+        <div class="tip">
+
+        </div>
+    </div>
+
+
+
+<div id="recipe-display">
+
+    <p id="recipe-desc"></p>
+    <p>Difficulty: <span id="recipe-diff"></span></p>
+    <p>total time: <span id="recipe-time"></span></p>
+    <p>likes: <span id="recipe-like"></span></p>
+
+    <p>Calories: <span id="recipe-cal"></span></p>
+    <p>fat: <span id="nutrition-fat"></span></p>
+    <p>protein: <span id="nutrition-protein"></span></p>
+    <p>fiber: <span id="nutrition-fiber"></span></p>
+    <p>carbs: <span id="nutrition-carbs"></span></p>
+    <p>chef Tip: <span id="recipe-tip"></span></p>
+    
+    <h3>Ingredients</h3>
+    <ul id="ingredient-list"></ul>
+
+    <h3>Steps</h3>
+    <ol id="steps-list"></ol>
+
+</div>
+
+     <script src="chef.js"></script>
+</body>
+</html>

@@ -1,0 +1,876 @@
+{
+    "app_metadata": {
+        "search_bar_enabled": true,
+        "search_placeholder": "Search from 15+ premium gourmet recipes...",
+        "total_recipes_count": 15,
+        "theme": {
+            "primary_color": "#7E57C2",
+            "background_color": "#FAFAFA",
+            "accent_color": "#FF4081"
+        }
+    },
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Fluffy Pancakes",
+            "description": "Light, fluffy and delicious pancakes perfect for a healthy breakfast.",
+            "difficulty_level": "Easy",
+            "prep_time": "15 Min",
+            "total_time_to_cook": "25 Min",
+            "likes": 128,
+            "image_url": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "320 kcal",
+                "carbs": "45g",
+                "protein": "10g",
+                "fat": "12g",
+                "fiber": "2g"
+            },
+            "ingredients": [
+                "1 cup All-purpose Flour",
+                "2 tbsp Sugar",
+                "2 tsp Baking Powder",
+                "1/4 tsp Salt",
+                "1 cup Milk",
+                "1 Large Egg",
+                "2 tbsp Melted Butter",
+                "1 tsp Vanilla Extract"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "In a large bowl, whisk together the flour, sugar, baking powder, and salt.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1595908129746-57bb19ef5122?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "In another bowl, whisk together the milk, egg, butter, and vanilla extract.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1582284540020-83af9e80f8e4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Pour the wet ingredients into the dry ingredients and stir until just combined.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1495214783159-3503fd1b572d?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Heat a non-stick pan over medium heat and lightly grease it.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1594385208974-2e75f9d8a847?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Pour 1/4 cup of batter onto the pan. Cook until bubbles form, then flip and cook until golden.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nAdd blueberries or chocolate chips for extra flavor! 😊"
+        },
+        {
+            "id": 2,
+            "name": "Avocado Poached Egg Toast",
+            "description": "Crispy artisan whole-grain bread topped with rich, creamy mashed avocado and perfectly poached eggs.",
+            "difficulty_level": "Easy",
+            "prep_time": "10 Min",
+            "total_time_to_cook": "15 Min",
+            "likes": 245,
+            "image_url": "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "280 kcal",
+                "carbs": "22g",
+                "protein": "12g",
+                "fat": "16g",
+                "fiber": "7g"
+            },
+            "ingredients": [
+                "2 slices Artisan Whole Grain Bread",
+                "1 Ripe Avocado",
+                "2 Large Eggs",
+                "1 tsp Lemon Juice",
+                "1/4 tsp Red Pepper Flakes",
+                "Salt and Black Pepper to taste"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Toast the artisan bread slices in a toaster or pan until they are golden and crispy.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Mash the avocado pulp in a bowl with fresh lemon juice, salt, and black pepper until smooth.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1604152135912-04a022e23696?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Poach the eggs in gently simmering water with a dash of white vinegar for exactly 3 minutes.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Spread the creamy seasoned mashed avocado evenly across the surface of the toasted bread.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1541532713592-79a0317b6b77?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Top with poached eggs, a pinch of red pepper flakes, and extra freshly cracked black pepper.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1603046891744-1f76eb10aec1?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nRub a lightly cut raw garlic clove over the warm toast before adding avocado for a subtle aromatic depth!"
+        },
+        {
+            "id": 3,
+            "name": "Classic Caesar Salad",
+            "description": "Crisp romaine lettuce tossed in a rich, creamy house caesar dressing, finished with garlic croutons and shaved parmesan.",
+            "difficulty_level": "Easy",
+            "prep_time": "12 Min",
+            "total_time_to_cook": "12 Min",
+            "likes": 189,
+            "image_url": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "310 kcal",
+                "carbs": "12g",
+                "protein": "8g",
+                "fat": "26g",
+                "fiber": "3g"
+            },
+            "ingredients": [
+                "1 large head Romaine Lettuce",
+                "1/2 cup Garlic Croutons",
+                "1/4 cup Shaved Parmesan Cheese",
+                "3 tbsp Creamy Caesar Dressing",
+                "1 tbsp Fresh Lemon Juice"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Wash and thoroughly dry the romaine lettuce leaves, then chop them into uniform bite-sized pieces.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1622484211148-71749c403cc4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Place the fresh chopped crisp lettuce inside a large chilled metallic or wooden salad bowl.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Drizzle the premium creamy caesar dressing and fresh lemon juice over the top of the lettuce.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Toss everything thoroughly until every single lettuce leaf is perfectly coated with dressing.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Garnish lavishly with crunchy garlic croutons and a handful of freshly shaved aged parmesan cheese.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nChill your serving bowl in the freezer for 10 minutes beforehand to keep your salad extraordinarily crisp!"
+        },
+        {
+            "id": 4,
+            "name": "Creamy Garlic Mushroom Pasta",
+            "description": "Al dente fettuccine covered elegantly in a velvety, deeply savory garlic and butter mushroom cream sauce.",
+            "difficulty_level": "Medium",
+            "prep_time": "10 Min",
+            "total_time_to_cook": "25 Min",
+            "likes": 412,
+            "image_url": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "520 kcal",
+                "carbs": "65g",
+                "protein": "14g",
+                "fat": "22g",
+                "fiber": "4g"
+            },
+            "ingredients": [
+                "8 oz Fettuccine Pasta",
+                "2 cups Sliced Cremini Mushrooms",
+                "3 cloves Garlic, minced",
+                "1/2 cup Heavy Cream",
+                "2 tbsp Extra Virgin Olive Oil",
+                "1/4 cup Grated Parmesan"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Boil fettuccine pasta in a large pot filled with heavily salted water according to the instructions.",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1551462147-ff29053bfc14?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Sauté the finely minced garlic and sliced cremini mushrooms in olive oil until a deep golden brown.",
+                    "step_time": "6 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Pour in the premium heavy cream and allow it to gently simmer over low heat to reduce and thicken.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Drain the cooked pasta carefully, ensuring you reserve around 1/4 cup of the starchy pasta water.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1621996346565-e3bb64d0be57?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Toss pasta directly into the hot cream sauce, adding parmesan cheese and reserved water until glossy.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nA splash of dry white wine used to deglaze the pan after cooking mushrooms adds an incredible gourmet depth!"
+        },
+        {
+            "id": 5,
+            "name": "Berry Blast Smoothie Bowl",
+            "description": "A vibrant, icy and thick blend of wild mixed berries and frozen bananas, curated for nutritional density.",
+            "difficulty_level": "Easy",
+            "prep_time": "5 Min",
+            "total_time_to_cook": "5 Min",
+            "likes": 318,
+            "image_url": "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "240 kcal",
+                "carbs": "48g",
+                "protein": "5g",
+                "fat": "3g",
+                "fiber": "9g"
+            },
+            "ingredients": [
+                "1 cup Frozen Organic Mixed Berries",
+                "1 Ripe Frozen Banana",
+                "1/2 cup Unsweetened Almond Milk",
+                "1 tbsp Chia Seeds",
+                "1/4 cup Toasted Granola"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Combine your frozen mixed berries, banana slices, and chilled almond milk into a high-powered blender.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1578645510447-e20b4311e3ce?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Blend on high power until entirely homogenous, thick, and resembling a luxurious soft-serve texture.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1610970881699-44a5587cabec?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Pour out the vibrant smoothie mixture into a wide, shallow contemporary ceramic serving bowl.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Artfully arrange rows of crunchy granola, raw chia seeds, and fresh berry slices across the surface.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1494597564530-871f2b93ac55?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nKeep the liquid to an absolute minimum during blending to guarantee the base holds up heavy superfood toppings!"
+        },
+        {
+            "id": 6,
+            "name": "Pan-Seared Salmon with Asparagus",
+            "description": "Perfectly crispy-skinned salmon fillet served next to tender, wood-fired char style asparagus spears.",
+            "difficulty_level": "Medium",
+            "prep_time": "10 Min",
+            "total_time_to_cook": "20 Min",
+            "likes": 562,
+            "image_url": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "390 kcal",
+                "carbs": "5g",
+                "protein": "34g",
+                "fat": "24g",
+                "fiber": "2g"
+            },
+            "ingredients": [
+                "6 oz Wild Caught Salmon Fillet",
+                "1 bunch Fresh Asparagus",
+                "2 tbsp Extra Virgin Olive Oil",
+                "1 fresh Lemon, sliced",
+                "2 cloves Garlic, minced",
+                "Salt and Black Pepper to taste"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Preheat a heavy cast-iron grill pan or an outdoor charcoal grill to medium-high heat.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Generously coat the salmon fillet and trimmed asparagus spears with olive oil, minced garlic, salt, and pepper.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Place the salmon skin-side down onto the sizzling pan; sear patiently without moving it around.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Add the seasoned asparagus directly to the pan margins and flip the salmon fillet over with care.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1560684352-8497838a2229?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Squeeze fresh, bright lemon juice directly over the fish and greens just before taking off the flame.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nAlways cook salmon skin-side down for 70% of the duration to render fat and create an insulation layer that keeps meat juicy!"
+        },
+        {
+            "id": 7,
+            "name": "Spicy Thai Green Curry",
+            "description": "An intensely aromatic, savory, and spicy coconut curry stew loaded with tender chicken and snap vegetables.",
+            "difficulty_level": "Hard",
+            "prep_time": "20 Min",
+            "total_time_to_cook": "40 Min",
+            "likes": 395,
+            "image_url": "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "460 kcal",
+                "carbs": "15g",
+                "protein": "28g",
+                "fat": "32g",
+                "fiber": "4g"
+            },
+            "ingredients": [
+                "2 tbsp Authentical Thai Green Curry Paste",
+                "14 oz Organic Unsweetened Coconut Milk",
+                "1 lb Free-Range Chicken Breast, cubed",
+                "1 cup Sliced Bamboo Shoots",
+                "1 Red Bell Pepper, sliced",
+                "2 tbsp Premium Fish Sauce",
+                "1 tbsp Coconut Brown Sugar"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Heat a small splash of high-smoke point oil in a heavy deep pan and fry curry paste until highly aromatic.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1596797038530-2c107229654b?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Slowly integrate coconut milk, whisking constantly to smoothly break down and melt the thick paste.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1541696490-8744a5db0223?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Drop in the diced raw chicken breasts and adjust your stove heat to bring the curry to a gentle bubble.",
+                    "step_time": "8 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Mix in your crisp bell pepper strips, bamboo shoots, traditional fish sauce, and raw brown sugar.",
+                    "step_time": "15 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Simmer continuously until chicken is cooked through and veggies are vibrant but still retain a snap.",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nRoughly slap and tear fresh holy or Thai basil leaves right into the hot curry during the final minute for authentic aroma!"
+        },
+        {
+            "id": 8,
+            "name": "Molten Chocolate Lava Cake",
+            "description": "An incredibly decadent dessert featuring a baked outer sponge layer with a rich, hot, liquid molten center.",
+            "difficulty_level": "Hard",
+            "prep_time": "15 Min",
+            "total_time_to_cook": "27 Min",
+            "likes": 742,
+            "image_url": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "410 kcal",
+                "carbs": "38g",
+                "protein": "6g",
+                "fat": "25g",
+                "fiber": "3g"
+            },
+            "ingredients": [
+                "4 oz Premium Dark Belgian Chocolate (70%)",
+                "1/2 cup Unsalted Sweet Butter",
+                "2 Whole Fresh Eggs",
+                "2 Extra Egg Yolks",
+                "1/4 cup Granulated Sugar",
+                "2 tbsp Fine Cake Flour"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Preheat your baking oven to 425°F and line small ramekins generously with butter and cocoa powder dusting.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Melt the chopped dark chocolate and sweet butter together in a glass bowl set over low simmering water.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1600611581240-80497e4c5bb7?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Whisk whole eggs, yolks, and white sugar in a spacious bowl until pale, thick, and fully double in volume.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1582284540020-83af9e80f8e4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Carefully fold the melted glossy chocolate mass and sifted cake flour into the beaten eggs using a spatula.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Distribute your batter equally into ramekins and bake for exactly 12 minutes until structural edges are set.",
+                    "step_time": "12 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nDo not let them overbake! The absolute center should remain visibly jiggly when you extract them from the oven heat."
+        },
+        {
+            "id": 9,
+            "name": "Mediterranean Chickpea Salad",
+            "description": "A crisp, satisfying, high-fiber, entirely plant-based salad bursting with classic Greek and Italian elements.",
+            "difficulty_level": "Easy",
+            "prep_time": "10 Min",
+            "total_time_to_cook": "10 Min",
+            "likes": 215,
+            "image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "210 kcal",
+                "carbs": "26g",
+                "protein": "7g",
+                "fat": "9g",
+                "fiber": "6g"
+            },
+            "ingredients": [
+                "1 can Organic Chickpeas, rinsed thoroughly",
+                "1 cup English Cucumber, cubed",
+                "1 cup Sweet Cherry Tomatoes, split",
+                "1/4 cup Real Feta Cheese, block crumbled",
+                "2 tbsp Fine Red Onion, minced",
+                "2 tbsp House Zesty Lemon Vinaigrette"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Thoroughly wash, rinse and drain canned chickpeas in cold running water until completely free of foam.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1515543904379-3d757afe72e2?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Chop the English cucumber, cherry tomatoes, and red onion into uniform, fine bite-sized cubes.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Combine your dry chickpeas and fresh crisp diced vegetables into a large contemporary serving bowl.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Pour over the house lemon vinaigrette and toss meticulously with salad spoons to combine.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Crumble traditional block feta cheese heavily over the surface and add a final toss.",
+                    "step_time": "1 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1608797178974-15b35a61d121?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nLet the salad marinate inside your refrigerator for at least 30 minutes to truly marry and maximize flavors!"
+        },
+        {
+            "id": 10,
+            "name": "Garlic Herb Roast Chicken",
+            "description": "Crispy, glass-shattering golden skin covering beautifully tender and succulent herb-basted poultry meat.",
+            "difficulty_level": "Medium",
+            "prep_time": "15 Min",
+            "total_time_to_cook": "1 Hour 30 Min",
+            "likes": 512,
+            "image_url": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "480 kcal",
+                "carbs": "2g",
+                "protein": "42g",
+                "fat": "32g",
+                "fiber": "0g"
+            },
+            "ingredients": [
+                "1 Whole Pasture Chicken (4 lbs)",
+                "4 tbsp Softened Sweet Cream Butter",
+                "3 large sprigs Fresh Rosemary",
+                "4 large cloves Garlic, cracked open",
+                "1 whole Lemon, halved"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Preheat your standard kitchen oven to 425°F and pat down the whole chicken dry using thick paper towels.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Stuff the inner cavernous spaces of the bird with juicy lemon halves, cracked garlic cloves, and fresh rosemary stems.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1604503468506-a8da13d82791?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Massage the softened sweet herb butter directly underneath the breast skin and generously all over the exterior skin.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Place in a heavy iron roasting tray and bake for 75 minutes uninterrupted until internal temperature reads 165°F.",
+                    "step_time": "75 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Allow the beautiful roasted chicken to rest perfectly on a wooden carving block for 10 full minutes to trap juices.",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nPatting down the bird's skin until thoroughly dry is the absolute secret to achieving that glass-like crisp finish!"
+        },
+        {
+            "id": 11,
+            "name": "Classic Margherita Pizza",
+            "description": "Authentic Neapolitan standard pizza highlighting artisanal crushed tomatoes, creamy fresh mozzarella, and aromatic hand-torn basil.",
+            "difficulty_level": "Medium",
+            "prep_time": "20 Min",
+            "total_time_to_cook": "30 Min",
+            "likes": 623,
+            "image_url": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "380 kcal",
+                "carbs": "52g",
+                "protein": "16g",
+                "fat": "11g",
+                "fiber": "3g"
+            },
+            "ingredients": [
+                "1 portion Artisanal Fermented Pizza Dough",
+                "1/2 cup San Marzano Crushed Tomatoes",
+                "4 oz Fresh Buffalo Mozzarella, torn",
+                "Handful of Fresh Sweet Basil Leaves",
+                "1 tbsp Extra Virgin Olive Oil"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Preheat your home oven with a heavy cooking stone placed inside to its maximum capacity limit (500°F).",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Gently hand-stretch the dough round on a counter covered in fine semolina until it creates a thin 12-inch disc.",
+                    "step_time": "6 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Ladle out an even layer of seasoned crushed San Marzano tomatoes, leaving an empty frame around the lip.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Disperse chunks of rich buffalo mozzarella uniformly across the wet red tomato coating.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Slide onto the baking stone for 8-10 minutes. Top instantly with fresh basil and cold olive oil finish.",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1541742425281-c1d3fc8abb96?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nTear and apply basil leaves exclusively after taking the pizza out from the oven to retain active herbal brightness without blackening!"
+        },
+        {
+            "id": 12,
+            "name": "French Beef Bourguignon",
+            "description": "A deep, comforting French bistro icon highlighting premium beef chunks slow-stewed in full-bodied Burgundy wine.",
+            "difficulty_level": "Hard",
+            "prep_time": "30 Min",
+            "total_time_to_cook": "3 Hours",
+            "likes": 342,
+            "image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "580 kcal",
+                "carbs": "18g",
+                "protein": "46g",
+                "fat": "34g",
+                "fiber": "4g"
+            },
+            "ingredients": [
+                "2 lbs Beef Chuck Roast, cut into cubes",
+                "750 ml Dry Red Wine (Pinot Noir)",
+                "4 oz Premium Thick Cut Bacon, cubed",
+                "3 large Carrots, thickly sliced",
+                "1/2 lb Small Pearl Onions, peeled",
+                "2 cups Dark Prepared Beef Stock"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Render and crisp the bacon lardons inside a heavy wide Dutch oven pot, then drain and set aside.",
+                    "step_time": "6 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1606755962773-d324e0a13086?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Sear the seasoned beef cubes in the remaining blistering hot pork fat until a dark crust encapsulates them.",
+                    "step_time": "10 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Empty the entire bottle of red wine and beef stock into the pot, scrubbing the caramel stuck to the base.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Reintroduce your bacon lardons along with cut carrots and sweet whole pearl onions back inside the braising liquid.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Cover tightly and place inside a 325°F oven for 2.5 hours until the meat collapses effortlessly under a fork.",
+                    "step_time": "150 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nCook with a red wine you would joyfully drink on its own; a low-quality cooking wine concentrates bad acidity during braising."
+        },
+        {
+            "id": 13,
+            "name": "Nourishing Vegan Buddha Bowl",
+            "description": "A deeply healthy and colorful therapeutic plate combining hot fluffy red quinoa, soft roasted tubers, and creamy nutty tahini.",
+            "difficulty_level": "Easy",
+            "prep_time": "15 Min",
+            "total_time_to_cook": "30 Min",
+            "likes": 294,
+            "image_url": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "420 kcal",
+                "carbs": "58g",
+                "protein": "12g",
+                "fat": "14g",
+                "fiber": "11g"
+            },
+            "ingredients": [
+                "1 cup Red Quinoa, rinsed",
+                "1 Sweet Potato, cubed cleanly",
+                "1 cup Curly Kale, chopped",
+                "1/2 cup Canned Garbanzo Beans",
+                "2 tbsp Velvet Pure Tahini Paste"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Coat your sweet potato chunks and garbanzo beans in olive oil and roast inside a hot oven at 400°F.",
+                    "step_time": "20 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Simmer the washed red quinoa in a saucepan containing fragrant vegetable stock until fluffiness appears.",
+                    "step_time": "15 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1543339308-43e59d6b73a6?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Massage the chopped curly kale leaves thoroughly using a drop of oil to degrade their tough cellulose texture.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1622484211148-71749c403cc4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Assemble distinct blocks of cooked quinoa, roasted yams, chickpeas, and massaged kale into a large shallow clay bowl.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Drizzle a generous spiral of nutty velvet tahini emulsion across the top of the entire bowl layout.",
+                    "step_time": "2 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nMassaging kale literally breaks down tough fibrous outer structures, yielding an incredibly soft mouthfeel and boosting digestion!"
+        },
+        {
+            "id": 14,
+            "name": "Moist Banana Walnut Muffins",
+            "description": "Bakery-grade, moist, and perfectly spiced whole muffins crammed with aromatic caramelized banana mash and walnuts.",
+            "difficulty_level": "Easy",
+            "prep_time": "15 Min",
+            "total_time_to_cook": "35 Min",
+            "likes": 425,
+            "image_url": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "290 kcal",
+                "carbs": "42g",
+                "protein": "5g",
+                "fat": "12g",
+                "fiber": "3g"
+            },
+            "ingredients": [
+                "3 overly Ripe Bananas, mashed smooth",
+                "1.5 cups Unbleached Pastry Flour",
+                "1/2 cup English Walnuts, crushed",
+                "1/3 cup Sweet Cream Butter, melted",
+                "1/2 cup Organic Cane Sugar",
+                "1 tsp Active Baking Soda"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Preheat your hot baking oven to 375°F and line a standard muffin tray with ribbed paper baking shells.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Mash the high-sugar speckled brown bananas using a wide fork inside a bowl until almost entirely liquid.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1566393028639-d108a42c46a7?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Incorporate the liquid sweet butter, raw cane sugar, egg, and baking soda into the dark banana slurry.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1582284540020-83af9e80f8e4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Fold your pastry flour and chopped English walnuts together carefully, avoiding overworking the gluten.",
+                    "step_time": "3 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Fill batter up into the baking shells and cook for 18-20 minutes until a toothpick checks clean.",
+                    "step_time": "20 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nThe more black and heavily spotted your baking bananas appear, the sweeter and more intensely rich your muffin batch becomes!"
+        },
+        {
+            "id": 15,
+            "name": "Classic French Onion Soup",
+            "description": "Deeply, patiently caramelized sweet onions swimming in a rich bone broth, crowned with crunchy gruyère toast.",
+            "difficulty_level": "Hard",
+            "prep_time": "20 Min",
+            "total_time_to_cook": "1 Hour 15 Min",
+            "likes": 382,
+            "image_url": "https://images.unsplash.com/photo-1620418029653-5fa37cfdf87d?auto=format&fit=crop&w=800&q=80",
+            "nutrition": {
+                "calories": "340 kcal",
+                "carbs": "24g",
+                "protein": "14g",
+                "fat": "18g",
+                "fiber": "3g"
+            },
+            "ingredients": [
+                "4 massive Sweet Yellow Onions, thinly ringed",
+                "2 tbsp European Saltless Butter",
+                "4 cups Deep Aged Rich Beef Bone Stock",
+                "1/2 cup French Dry White Wine",
+                "1 fresh Crusty Baguette, sliced clean",
+                "1 cup Aged Gruyère Cheese, finely grated"
+            ],
+            "step_by_step_instructions": [
+                {
+                    "step_number": 1,
+                    "text": "Melt the unsalted butter inside a wide heavy Dutch oven pot and add the mountain of sliced sweet onions.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 2,
+                    "text": "Sauté on absolute medium-low heat for 45 minutes, stirring intermittently, until they turn dark amber.",
+                    "step_time": "45 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 3,
+                    "text": "Deglaze the pot with fine dry white wine, boiling actively until the liquid fully dissipates away.",
+                    "step_time": "4 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 4,
+                    "text": "Pour in your premium dark beef stock and let everything simmer smoothly together for 20 minutes.",
+                    "step_time": "20 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=400&q=80"
+                },
+                {
+                    "step_number": 5,
+                    "text": "Ladle soup into clay pots, place a crisp baguette crouton on top, cover with gruyère, and broil until bubbling.",
+                    "step_time": "5 Min",
+                    "step_image_url": "https://images.unsplash.com/photo-1608797178974-15b35a61d121?auto=format&fit=crop&w=400&q=80"
+                }
+            ],
+            "chefs_tip": "Chef's Tip\n\nNever rush the onion breakdown phase! True complex soup sweetness emerges solely from slow caramelization over 45 patient minutes."
+        }
+    ]
+}
