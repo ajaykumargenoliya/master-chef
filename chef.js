@@ -1184,6 +1184,7 @@ function updateRecipe() {
     document.getElementById('recipe-like').textContent = recipe.likes;
     document.getElementById('recipe-time').textContent = recipe.total_time;
     document.getElementById('recipe-tip').textContent = recipe.chefs_tip;
+    document.getElementById('recipe-img').textContent = recipe.image;
 
     document.getElementById('recipe-cal').textContent = recipe.nutrition.calories;
     document.getElementById('nutrition-fat').textContent = recipe.nutrition.fat;
@@ -1191,12 +1192,22 @@ function updateRecipe() {
     document.getElementById('nutrition-protein').textContent = recipe.nutrition.protein;
     document.getElementById('nutrition-fiber').textContent = recipe.nutrition.fiber;
 
-    const ingList = document.getElementById('ingredient-list');
+    const imgElement = document.getElementById('recipe-img');
+    imgElement.src = recipe.image;
+
+    const ingList = document.getElementById('ingredient-item');
     ingList.innerHTML = "";
     recipe.ingredients.forEach(item => {
       const li = document.createElement('li');
-      li.textContent = `${item.name}: ${item.amount}`;
+      li.textContent = `${item.name}:`;
       ingList.appendChild(li);
+    });
+const ingListamt = document.getElementById('ingredient-amt');
+    ingListamt.innerHTML = "";
+    recipe.ingredients.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = ` ${item.amount}`;
+      ingListamt.appendChild(li);
     });
 
     // 3. Handle Steps
