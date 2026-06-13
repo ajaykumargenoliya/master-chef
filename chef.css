@@ -5,37 +5,48 @@
 
 .main {
     width: 100%;
-    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
-    background-color: rgb(246 245 253);
+    min-height: 100vh;
+    overflow-y: hidden;
+    background-color: rgb(227, 224, 250);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .app-hed {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: space-evenly;
+    margin: 3px;
     align-items: center;
 }
 
 .app-hed select {
-    background-color: rgb(255, 255, 255);
-    width: 80%;
+    background-color: rgba(250, 247, 238, 0.877);
+    width: 75%;
     border: none;
     border-radius: 35px;
     -webkit-appearance: none;
     display: flex;
     justify-content: start;
     font-size: 16px;
-    padding: 5px 10px 5px 20px;
+    padding: 10px 10px 10px 20px;
+    margin: 10px 0 10px 0;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .app-hed img {
     width: 22px;
-    background-color: white;
+    background-color: rgba(250, 247, 238, 0.877);
     border-radius: 35px;
     padding: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
@@ -45,64 +56,175 @@
     border: none;
 }
 
+.like {
+    display: flex;
+
+    justify-content: space-between;
+    background-color: rgba(250, 247, 238, 0.877);
+    border-radius: 35px;
+    font-size: 16px;
+    padding: 4px 10px 4px 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.like img {
+    width: 22px;
+    border-radius: 35px;
+    padding: 0;
+    margin-right: 15px;
+    box-shadow: none;
+}
 
 .recipe-hero {
     display: flex;
     flex-direction: row;
-    width: 45%;
+    width: 48%;
     border-radius: 15px;
     justify-content: space-around;
+
     padding: 5px;
 }
-.one{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-.two{
+
+.one {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
+
+.two {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .recipe-image {
-    justify-content: center;
+    width: 100%;
     align-items: center;
     display: flex;
     filter: drop-shadow(5px 5px 2px rgba(0, 0, 0, 0.5));
 }
+
 .recipe-image img {
     width: 200px;
     height: 200px;
     border-radius: 20px;
     aspect-ratio: 1;
+}
 
+.nutrition h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    text-shadow: 3px 3px 4px rgba(212, 71, 255, 0.5);
+}
+
+.nutrition {
+    margin: 10px 0 10px 20px;
+    padding: 0 10px 10px 10px;
+    width: 80%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    background-color: rgba(250, 247, 238, 0.877);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+}
+
+.nut-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+
+.kal-mtr {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    aspect-ratio: 1;
+    background: linear-gradient(90deg, rgb(122 80 240), rgb(170 90 240));
+    border-radius: 55px;
+}
+
+.u-box {
+    width: 70px;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    aspect-ratio: 1;
+    background-color: rgb(247 244 239);
+}
+
+.kal-list {
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kal-list ul li span {
+    color: #c480fc;
+}
+
+.kal-list ul {
+    list-style: none;
 }
 
 .recipe-detail {
     display: flex;
+    margin-left: -60px;
+    width: 120%;
     flex-direction: column;
     border-radius: 15px;
-     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    background-color: rgba(250, 247, 238, 0.877);
 }
 
 .recipe-detail .rec-name {
-    display: flex;
-    align-items: center;
-    font-size: 13px;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
-
+    display: block;
+    width: 90%;
+    height: 30px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-shadow: 2px 2px 3px rgba(212, 120, 255, 0.481);
 }
 
 .description {
     width: 90%;
-    height: 30px;
+    max-height: 50px;
     color: gray;
-    margin: 10px 0px 10px 10px;
+    overflow: hidden;
+    margin: 10px 0px 10px 20px;
 }
 
 .description p {
-    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.28);
-    font-size: 12px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.18);
+    font-size: 14px;
+    text-overflow: ellipsis;
 }
 
 .mini-card {
@@ -114,27 +236,33 @@
 }
 
 .mini-card .card {
-    width: 70px;
+    width: 90px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
 }
+
 .card .top {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    font-size: 10px;
+    font-size: 14px;
 }
+
+.card .top img {
+    width: 15px;
+}
+
 .card .bot {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
-    color: gray;
+    font-size: 14px;
+    color: rgba(128, 128, 128, 0.384);
 }
 
 .start {
@@ -164,24 +292,33 @@
 
 .recipe-content {
     width: 100%;
-     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
-     border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    border-radius: 15px;
+    min-height: 220px;
+    background-color: rgba(250, 247, 238, 0.877);
+    margin: 35px 0 0 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .recipe-content h3 {
     display: flex;
-    justify-content: center; 
-    margin: 10px 0 0 0;
-    align-items: center;    
-    width: 100%;             
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
     text-shadow: 3px 3px 4px rgba(212, 71, 255, 0.5);
 }
+
 .ingredient {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    font-size: 14px;
-    padding: 10px;
+    width: 90%;
+    font-size: 16px;
+    padding: 10px 0 10px 10px;
+
 
 }
 
@@ -195,7 +332,12 @@
 }
 
 .ing-name ul {
-    margin-left: 25px;
+    margin-left: 20px;
+}
+
+.ing-name ul li {
+    line-height: 20px;
+    overflow-wrap: wrap;
 }
 
 .ing-name ul li::marker {
@@ -205,4 +347,201 @@
 .ing-quantity ul {
     list-style: none;
     color: #c480fc;
+}
+
+
+
+
+
+
+
+.rec-det {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+.lhf {
+    width: 60%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    background-color: rgb(247 244 239);
+    border-radius: 15px;
+    padding-top: 10px;
+    height: 400px;
+    overflow-x: hidden;
+    min-height: 450px;
+
+}
+
+
+
+.rec-det .lhf h3 {
+
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(212, 71, 255, 0.5);
+}
+
+.lhf ul {
+    list-style: none;
+    padding: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.lhf ul li {
+    margin-top: 1px;
+    width: 90%;
+    display: flex;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.49);
+    padding: 3px;
+    text-align: justify;
+
+
+}
+
+.rhf {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preptimer {
+    background-color: rgb(247 244 239);
+    position: relative;
+    border-radius: 15px;
+    width: 80%;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    padding: 10px;
+}
+
+.preptimer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
+    background: url('images/time.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.04;
+    z-index: 1;
+}
+
+.preptimer>* {
+    position: relative;
+    z-index: 2;
+}
+
+.preptimer span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.preptimer h1 {
+    font-size: 56px;
+}
+
+.preptimer .prep-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.preptimer button {
+    width: 55px;
+    border-radius: 40px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.tip {
+    background-color: rgb(247 244 239);
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 80%;
+    height: 200px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.09);
+    padding: 10px;
+}
+
+.tip h3 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 15px;
+    text-shadow: 3px 3px 4px rgba(212, 71, 255, 0.5);
+}
+
+.tip p {
+    display: flex;
+    text-align: justify;
+    padding: 10px;
+    font-size: 14px;
+
+}
+
+.tip img {
+    width: 45px;
+    margin-left: 10px;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .recipe-hero,
+    .rec-det {
+        width: 95%;
+    }
+
+    .recipe-detail {
+        margin-left: -120px;
+    }
+
+    .recipe-image img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .recipe-detail .rec-name {
+        font-size: 18px;
+        height: 50px;
+    }
+    .description p {
+        font-size: 20px;
+    }
+    .start button{
+        width: 300px;
+        font-size: 18px;
+    }
+    .mini-card .card {
+        width: 110px;
+    }
+    .card .top{
+        font-size: 20px;
+    }
+    .card .bot{
+        font-size: 18px;
+    }
 }

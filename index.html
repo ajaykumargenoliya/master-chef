@@ -13,106 +13,149 @@
     <div class="main">
         <div class="app-hed">
             <img src="images/001-back.png" alt="">
-
+            <img src="images/002-filter.png" alt="">
+            <div class="like">
+                <img src="images/011-love-always-wins.png" alt="">
+                <span id="recipe-like"></span>
+            </div>
             <select id="recipe-selector" onchange="updateRecipe('1')">
             </select>
 
-            <img src="images/002-filter.png" alt="">
+
+        </div>
+        <div class="box">
+            <div class="recipe-hero">
+                <div class="one">
+                    <div class="recipe-image">
+                        <img id="recipe-img" alt="">
+                    </div>
+                    <div class="recipe-content">
+
+                        <h3>Ingredients</h3>
+                        <div class="ingredient">
+                            <div class="ing-name">
+                                <ul id="ingredient-item"></ul>
+                            </div>
+                            <div class="ing-quantity">
+                                <ul id="ingredient-amt"></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <div class="recipe-detail">
+                        <div class="rec-name">
+                            <h1 id="recipe-name"></h1>
+                        </div>
+                        <div class="description">
+                            <p id="recipe-desc"></p>
+                        </div>
+                        <div class="mini-card">
+                            <div class="card">
+                                <div class="top"><img src="images/005-time.png" alt="">
+                                    <p><span id="recipe-time"></span></p>
+                                </div>
+                                <div class="bot">
+                                    <p>Cooking-time</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="top"><img src="images/002-people.png" alt="">
+                                    <p>2 Servings</p>
+                                </div>
+                                <div class="bot">
+                                    <p>Servings</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="top"><img src="images/gear.png" alt="">
+                                    <p><span id="recipe-diff"></p>
+                                </div>
+                                <div class="bot">
+                                    <p>Cooking-diff.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="start">
+                            <button id="second-play-btn">Start Cooking -></button>
+                        </div>
+                    </div>
+
+                    <div class="nutrition">
+                        <h3>Nutrition</h3>
+                        <div class="nut-box">
+
+                            <div class="kal-mtr">
+                                <div class="b-box">
+                                    <div class="u-box">
+                                        <b>
+                                            <span id="recipe-cal"></span>
+                                        </b>
+                                        <p>kcal</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="kal-list">
+                                <ul>
+                                    <b>
+                                        <li>
+                                            <p>Carbs:- </p>
+                                        </li>
+                                        <li>
+                                            <p>Protein:- </p>
+                                        </li>
+                                        <li>
+                                            <p>Fat:- </p>
+                                        </li>
+                                        <li>
+                                            <p>Fiber:- </p>
+                                        </li>
+                                    </b>
+                                </ul>
+                                <ul><b>
+                                        <li><span id="nutrition-carbs"></span></li>
+                                        <li><span id="nutrition-protein"></span></li>
+                                        <li><span id="nutrition-fat"></span></li>
+                                        <li><span id="nutrition-fiber"></span></li>
+                                    </b>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="rec-det">
+                <div class="lhf">
+                    <b>
+                        <h3>Step-by-Step Instructions</h3>
+                    </b>
+                    <ul id="steps-list"></ul>
+                </div>
+                <div class="rhf">
+                    <div class="preptimer">
+                        <span id="recipe-time2"></span>
+                        <h1 id="recipe-time3"></h1>
+                        <div class="prep-btn">
+                            <button id="play-pause-btn"><img id="btn-icon" src="images/004-play.png" alt="Play"></button>
+                            <button id="reset-btn"><img src="images/006-redo.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="tip">
+                        <h3>Chef-Tipimg
+                            <img src="images/001-master.png" alt="">
+                        </h3>
+                        <p><span id="recipe-tip"></span></p>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
 
 
-        <div class="recipe-hero">
-            <div class="one">
-                <div class="recipe-image">
-                    <img id="recipe-img" alt="">
-                </div>
-                <div class="nutrition">
-                    <div class="kal-mtr">
-
-                    </div>
-                    <div class="kal-list">
-
-                    </div>
-                </div>
-            </div>
-            <div class="two">
-                <div class="recipe-detail">
-                    <div class="rec-name">
-                        <h1 id="recipe-name"></h1>
-                    </div>
-                    <div class="rating">
-                        <div class="stars">
-
-                        </div>
-                        <div class="count">
-
-                        </div>
-                    </div>
-                    <div class="description">
-                        <p id="recipe-desc"></p>
-                    </div>
-                    <div class="mini-card">
-                        <div class="card">
-                            <div class="top"><img src="" alt="">
-                                <p><span id="recipe-time"></span></p>
-                            </div>
-                            <div class="bot">
-                                <p>Cooking-time</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="top"><img src="" alt="">
-                                <p>2 Servings</p>
-                            </div>
-                            <div class="bot">
-                                <p>Servings</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="top"><img src="" alt="">
-                                <p><span id="recipe-diff"></p>
-                            </div>
-                            <div class="bot">
-                                <p>Cooking-time</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="start">
-                        <button>Start Cooking -></button>
-                    </div>
-                </div>
-                <div class="recipe-content">
-
-                    <h3>Ingredients</h3>
-                    <div class="ingredient">
-                        <div class="ing-name">
-                            <ul id="ingredient-item"></ul>
-                        </div>
-                        <div class="ing-quantity">
-                            <ul id="ingredient-amt"></ul>
-                        </div>
-                    </div>
-                    <div class="prep-time">
-
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-        <div class="rec-det">
-            <div class="lhf">
-
-            </div>
-            <div class="rhf">
-
-            </div>
-        </div>
-
-        <div class="tip">
-
-        </div>
     </div>
 
 
@@ -120,22 +163,6 @@
     <div id="recipe-display">
 
 
-        <p>Difficulty: <span id="recipe-diff"></span></p>
-        <p>total time: <span id="recipe-time"></span></p>
-        <p>likes: <span id="recipe-like"></span></p>
-
-        <p>Calories: <span id="recipe-cal"></span></p>
-        <p>fat: <span id="nutrition-fat"></span></p>
-        <p>protein: <span id="nutrition-protein"></span></p>
-        <p>fiber: <span id="nutrition-fiber"></span></p>
-        <p>carbs: <span id="nutrition-carbs"></span></p>
-        <p>chef Tip: <span id="recipe-tip"></span></p>
-
-        <h3>Ingredients</h3>
-
-
-        <h3>Steps</h3>
-        <ol id="steps-list"></ol>
 
     </div>
 

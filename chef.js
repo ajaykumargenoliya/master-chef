@@ -1167,22 +1167,44 @@ const data = {
     }
   ]
 }
+const timerDisplay = document.getElementById('recipe-time3');
+const playPauseBtn = document.getElementById('play-pause-btn');
+const secondPlayBtn = document.getElementById('second-play-btn'); // Added secondary button reference
+const resetBtn = document.getElementById('reset-btn');
+const btnIcon = document.getElementById('btn-icon');
 
+let maxSeconds = 0;
+let totalSeconds = 0;
+let countdown = null;
+let isRunning = false;
 
-
-
-
+function parseTimeToSeconds(timeStr) {
+  if (!timeStr) return 0;
+  if (timeStr.toLowerCase().includes('min')) {
+    return (parseInt(timeStr, 10) || 0) * 60;
+  }
+  if (timeStr.includes(':')) {
+    const parts = timeStr.split(':');
+    return (parseInt(parts[0], 10) * 60) + (parseInt(parts[1], 10) || 0);
+  }
+  return (parseInt(timeStr, 10) || 0) * 60;
+}
 
 function updateRecipe() {
   const index = document.getElementById('recipe-selector').value;
   const recipe = data.recipes[index];
 
   if (recipe) {
+    clearInterval(countdown);
+    isRunning = false;
+    if (btnIcon) btnIcon.src = "images/004-play.png";
+
     document.getElementById('recipe-name').textContent = recipe.name;
     document.getElementById('recipe-desc').textContent = recipe.description;
     document.getElementById('recipe-diff').textContent = recipe.difficulty;
     document.getElementById('recipe-like').textContent = recipe.likes;
     document.getElementById('recipe-time').textContent = recipe.total_time;
+    document.getElementById('recipe-time2').textContent = recipe.total_time;
     document.getElementById('recipe-tip').textContent = recipe.chefs_tip;
     document.getElementById('recipe-img').textContent = recipe.image;
 
@@ -1202,7 +1224,8 @@ function updateRecipe() {
       li.textContent = `${item.name}:`;
       ingList.appendChild(li);
     });
-const ingListamt = document.getElementById('ingredient-amt');
+
+    const ingListamt = document.getElementById('ingredient-amt');
     ingListamt.innerHTML = "";
     recipe.ingredients.forEach(item => {
       const li = document.createElement('li');
@@ -1210,7 +1233,6 @@ const ingListamt = document.getElementById('ingredient-amt');
       ingListamt.appendChild(li);
     });
 
-    // 3. Handle Steps
     const stepList = document.getElementById('steps-list');
     stepList.innerHTML = "";
     recipe.steps.forEach(s => {
@@ -1219,26 +1241,97 @@ const ingListamt = document.getElementById('ingredient-amt');
       stepList.appendChild(li);
     });
 
+    maxSeconds = parseTimeToSeconds(recipe.total_time);
+    totalSeconds = maxSeconds;
+    updateDisplay();
     
   } else {
     console.error("Recipe not found for index:", index);
   }
 }
+
 function populateDropdown() {
-      const selector = document.getElementById('recipe-selector');
+  const selector = document.getElementById('recipe-selector');
+  selector.innerHTML = "";
 
-      // Clear any existing options
-      selector.innerHTML = "";
+  data.recipes.forEach((recipe, index) => {
+    const option = document.createElement('option');
+    option.value = index; 
+    option.textContent = recipe.name; 
+    selector.appendChild(option);
+  });
+}
 
-      // Loop through the recipes and create an option for each
-      data.recipes.forEach((recipe, index) => {
-        const option = document.createElement('option');
-        option.value = index; // Use the index as the value
-        option.textContent = recipe.name; // Use the recipe name as the display text
-        selector.appendChild(option);
-      });
-    }
-// Call this once on page load
-populateDropdown();
-// Initial call to load the first recipe on page load
-updateRecipe();
+function updateDisplay() {
+  let minutes = Math.floor(totalSeconds / 60);
+  let seconds = totalSeconds % 60;
+  if (seconds < 10) seconds = "0" + seconds; 
+  if (timerDisplay) timerDisplay.textContent = minutes + ":" + seconds;
+}
+
+function tick() {
+  totalSeconds--; 
+  updateDisplay();
+
+  if (totalSeconds <= 0) {
+    clearInterval(countdown);
+    if (timerDisplay) timerDisplay.textContent = "0:00";
+    if (btnIcon) btnIcon.src = "images/004-play.png"; 
+    isRunning = false;
+  }
+}
+
+// Reusable function to handle play/pause toggling smoothly
+function toggleTimer() {
+  if (!isRunning) {
+    if (totalSeconds <= 0) return;
+    
+    countdown = setInterval(tick, 1000);
+    if (btnIcon) btnIcon.src = "images/003-stop.png"; 
+    isRunning = true;
+  } else {
+    clearInterval(countdown);
+    if (btnIcon) btnIcon.src = "images/004-play.png";  
+    isRunning = false;
+  }
+}
+
+// Attach the toggle function to your original button
+if (playPauseBtn && btnIcon) {
+  playPauseBtn.addEventListener('click', toggleTimer);
+}
+
+// Attach the exact same toggle function to your new secondary button
+if (secondPlayBtn) {
+  secondPlayBtn.addEventListener('click', toggleTimer);
+}
+
+if (resetBtn) {
+  resetBtn.addEventListener('click', function() {
+    clearInterval(countdown);
+    totalSeconds = maxSeconds;
+    updateDisplay();
+    if (btnIcon) btnIcon.src = "images/004-play.png"; 
+    isRunning = false;
+  });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  populateDropdown();
+  updateRecipe();
+
+  const selector = document.getElementById('recipe-selector');
+  if (selector) {
+    selector.addEventListener('change', updateRecipe);
+  }
+});
+const btn = document.getElementById('second-play-btn');
+
+    btn.addEventListener('click', function() {
+      // Check what the text currently says
+      if (btn.textContent === "Start Cooking ->") {
+        btn.textContent = "Time is running ..."; // Change it to Pause
+      } else {
+        btn.textContent = "Start Cooking ->";  // Change it back to Play
+      }
+    });
