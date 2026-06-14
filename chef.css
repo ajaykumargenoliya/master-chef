@@ -519,6 +519,10 @@
         margin-left: -120px;
     }
 
+    .recipe-content {
+        margin-top: 10px;
+    }
+
     .recipe-image img {
         width: 250px;
         height: 250px;
@@ -528,20 +532,442 @@
         font-size: 18px;
         height: 50px;
     }
+
     .description p {
         font-size: 20px;
     }
-    .start button{
+
+    .start button {
         width: 300px;
         font-size: 18px;
     }
+
     .mini-card .card {
         width: 110px;
     }
-    .card .top{
+
+    .card .top {
         font-size: 20px;
     }
-    .card .bot{
+
+    .card .bot {
         font-size: 18px;
+    }
+
+    .lhf {
+        margin-top: 10px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .recipe-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .recipe-detail {
+        margin-left: -140px;
+
+    }
+
+    .recipe-detail .rec-name {
+        font-size: 22px;
+        height: 60px;
+    }
+
+    .description p {
+        font-size: 20px;
+    }
+
+    .mini-card .card {
+        width: 150px;
+    }
+
+    .card .top {
+        font-size: 18px;
+    }
+
+    .card .bot {
+        font-size: 17px;
+        min-height: 40px;
+    }
+
+    .start button {
+        width: 400px;
+        height: 45px;
+        margin: 15px 0 15px 0;
+    }
+
+    .recipe-content {
+        min-height: 280px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 390px;
+    }
+
+    .recipe-content ul {
+        margin-top: 25px;
+        min-height: 390px;
+
+    }
+
+    .ing-name,
+    .ing-quantity {
+        width: 50%;
+    }
+
+    .ing-name ul li,
+    .ing-quantity ul li {
+        font-size: 20px;
+        margin-top: 2px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    .ing-name ul li {
+        margin-top: 5px;
+
+    }
+
+    .nutrition {
+        min-height: 380px;
+        margin-top: 20px;
+    }
+
+    .lhf {
+        height: 700px;
+        padding: 20px;
+    }
+
+    .preptimer,
+    .tip {
+        height: 330px;
+    }
+
+    .lhf ul li {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .recipe-image {
+        width: 60%;
+        margin-left: -140px;
+    }
+
+    .nut-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .kal-mtr {
+        width: 100%;
+    }
+
+    .b-box {
+        width: 150px;
+        border-radius: 100px;
+        margin: 10px 0 20px 0;
+    }
+
+    .u-box {
+        width: 130px;
+        border-radius: 100px;
+        font-size: 30px;
+    }
+
+    .kal-list {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .tip p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        overflow-y: auto;
+        min-height: 100vh;
+    }
+
+    .app-hed {
+        flex-wrap: wrap;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .app-hed select {
+        width: 65%;
+        font-size: 13px;
+        padding: 8px 8px 8px 14px;
+    }
+
+    .app-hed img {
+        width: 18px;
+        padding: 4px;
+    }
+
+    .like {
+        font-size: 13px;
+        padding: 4px 8px;
+    }
+
+    .like img {
+        width: 18px;
+        margin-right: 8px;
+    }
+
+    /* ── MAIN BOX ── */
+    .box {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+
+    /* ── HERO SECTION ── */
+    .recipe-hero {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+
+    .one,
+    .two {
+        width: 100%;
+        align-items: center;
+    }
+
+    /* ── RECIPE IMAGE ── */
+ .recipe-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 160px;
+}
+    /* ── INGREDIENTS BOX ── */
+    .recipe-content {
+        width: 100%;
+        margin: 10px 0 0 0;
+        max-height: none;
+        min-height: unset;
+        box-sizing: border-box;
+    }
+
+    .ingredient {
+        width: 95%;
+        font-size: 14px;
+        padding: 8px 0 8px 8px;
+    }
+
+    .ing-name,
+    .ing-quantity {
+        width: 50%;
+    }
+
+    .ing-name ul li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    .ing-quantity ul li {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    /* ── RECIPE DETAIL CARD ── */
+    .recipe-detail {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 12px;
+        box-sizing: border-box;
+    }
+
+    .recipe-detail .rec-name {
+        font-size: 14px;
+        height: auto;
+        white-space: normal;
+        overflow: visible;
+        text-align: center;
+        width: 100%;
+        padding: 6px 10px;
+    }
+
+    .description {
+        margin: 8px 0 8px 12px;
+        max-height: none;
+        width: 90%;
+    }
+
+    .description p {
+        font-size: 13px;
+    }
+
+    /* ── MINI CARDS ── */
+    .mini-card {
+        justify-content: space-around;
+        gap: 6px;
+        padding: 0 4px;
+    }
+
+    .mini-card .card {
+        width: 75px;
+        padding: 4px;
+    }
+
+    .card .top {
+        font-size: 12px;
+    }
+
+    .card .top img {
+        width: 13px;
+    }
+
+    .card .bot {
+        font-size: 11px;
+    }
+
+    /* ── START BUTTON ── */
+    .start button {
+        width: 85%;
+        height: 38px;
+        font-size: 14px;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    /* ── NUTRITION ── */
+    .nutrition {
+        width: 92%;
+        margin: 12px 0 12px 0;
+        min-height: unset;
+        padding: 10px;
+    }
+
+    .nut-box {
+        flex-direction: row;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .kal-mtr {
+        width: 100%;
+        margin-bottom: 14px;
+    }
+
+    .b-box {
+        width: 90px;
+    }
+
+    .u-box {
+        width: 78px;
+        font-size: 16px;
+    }
+
+    .kal-list {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    /* ── BOTTOM SECTION ── */
+    .rec-det {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 20px;
+    }
+
+    /* ── STEPS ── */
+    .lhf {
+        width: 95%;
+        height: auto;
+        min-height: unset;
+        overflow-x: hidden;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .lhf ul li {
+        font-size: 13px;
+        margin-top: 8px;
+        line-height: 20px;
+    }
+
+    /* ── RIGHT HALF (timer + tip) ── */
+    .rhf {
+        width: 95%;
+        flex-direction: column;
+        gap: 14px;
+        align-items: center;
+    }
+
+    /* ── PREP TIMER ── */
+    .preptimer {
+        width: 90%;
+        height: auto;
+        padding: 14px;
+        box-sizing: border-box;
+    }
+
+    .preptimer span {
+        font-size: 28px;
+    }
+
+    .preptimer h1 {
+        font-size: 42px;
+    }
+
+    .preptimer button {
+        width: 44px;
+    }
+
+    /* ── CHEF TIP ── */
+    .tip {
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .tip h3 {
+        margin: 6px 0 0 10px;
+        font-size: 16px;
+    }
+
+    .tip img {
+        width: 34px;
+        margin-left: 8px;
+    }
+
+    .tip p {
+        font-size: 13px;
+        padding: 8px;
     }
 }

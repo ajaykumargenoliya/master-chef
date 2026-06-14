@@ -1092,7 +1092,7 @@ const data = {
       "name": "Mango Coconut Chia Pudding",
       "description": "Silky, tropical chia pudding bursting with fresh mango and coconut — light, refreshing and naturally sweetened for a sunshine-in-a-glass breakfast.",
       "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800",
-      "total_time": "5 mins (+ 4 hrs chilling)",
+      "total_time": "5 mins ",
       "difficulty": "Easy",
       "likes": 4290,
       "ingredients": [
